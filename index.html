@@ -29,7 +29,7 @@
 <div id="loader" class="load">
   
 </div>
-<div id="content" style="display:;">
+<div id="content">
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -558,15 +558,15 @@
     document.addEventListener("DOMContentLoaded", function() {
         const testimonialWrapper = document.getElementById("testimonial-wrapper");
 
-        for (let i = 1; i <= 8; i++) {
+        for (let i = 1; i <= 19; i++) {
             const slide = document.createElement('div');
             slide.classList.add('swiper-slide');
-
+            const filename = `1 (${i}).jpeg`; // Generate filename
             slide.innerHTML = `
             <div class="testimonial-item" data-aos="fade-up">
                 <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    <img class="estImage my-image" src="grades/${i}.jpeg">
+                    <img class="estImage my-image" src="grades/${filename}">
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <i style="font-size: 51px; color: #f7941d" class="testimonial-img bx bxs-user-circle"></i>

@@ -999,8 +999,8 @@ section {
 
 
 .estImage {
-  height: 297px;
-  width: 91%;
+  /*height: 297px;*/
+  width: 100%;
 }
 .bio {
   font-size: 10px;
