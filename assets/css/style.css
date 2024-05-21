@@ -14,17 +14,18 @@ body {
   color: #272829;
 }
 .my-image:hover {
-  transform: scale(1.2); /* Increase image size by 20% on hover */
-  transition: transform 0.3s ease-in-out; /* Smooth zoom animation */
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  border: 5px dashed #f7941d;
 }
 a {
-  color: #f7941d;
-  text-decoration: none;
+color: #f7941d;
+text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
-  text-decoration: none;
+color: #37b3ed;
+text-decoration: none;
 }
 
 h1,
@@ -33,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
