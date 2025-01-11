@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radial Chart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container text-center mt-5">
+    <div class="radial-chart">
+      <!-- Center Circle -->
+      <div class="center-point">360</div>
+      
+      <!-- Radial Lines -->
+      <div class="line" style="transform: rotate(0deg);"></div>
+      <div class="line" style="transform: rotate(10deg);"></div>
+      <div class="line" style="transform: rotate(20deg);"></div>
+      <div class="line" style="transform: rotate(30deg);"></div>
+      <div class="line" style="transform: rotate(40deg);"></div>
+      <div class="line" style="transform: rotate(50deg);"></div>
+      <!-- Continue lines as per design -->
+
+      <!-- Labels -->
+      <div class="label" style="transform: rotate(0deg) translate(250px);">10</div>
+      <div class="label" style="transform: rotate(30deg) translate(250px);">30</div>
+      <div class="label" style="transform: rotate(60deg) translate(250px);">60</div>
+      <div class="label" style="transform: rotate(90deg) translate(250px);">90</div>
+      <div class="label" style="transform: rotate(120deg) translate(250px);">120</div>
+      <div class="label" style="transform: rotate(150deg) translate(250px);">150</div>
+      <!-- Continue labels for all radial sections -->
+
+      <!-- Outer Circular Sections -->
+      <div class="outer-section" style="transform: rotate(45deg);">هــواء</div>
+      <div class="outer-section" style="transform: rotate(135deg);">ماء</div>
+      <div class="outer-section" style="transform: rotate(225deg);">نار</div>
+      <div class="outer-section" style="transform: rotate(315deg);">تراب</div>
+    </div>
+  </div>
+</body>
+</html>
